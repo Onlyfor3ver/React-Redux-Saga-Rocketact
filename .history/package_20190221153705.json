@@ -1,0 +1,39 @@
+{
+  "name": "React-Redux-Saga-Rocketact",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "rocketact-scripts start",
+    "build": "rocketact-scripts build",
+    "ts-check": "tsc --project tsconfig.json && tslint --config tslint.json --project tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git repo url"
+  },
+  "author": "author <author@rocketact.com>",
+  "license": "ISC",
+  "browserslist": [
+    "> 0.5%",
+    "last 2 versions",
+    "Firefox ESR",
+    "not dead",
+    "ie >= 9",
+    "iOS >= 8"
+  ],
+  "devDependencies": {
+    "@types/react": "^16.4.7",
+    "@types/react-dom": "^16.0.6",
+    "@types/webpack": "^4.4.22",
+    "@types/webpack-env": "^1.13.6",
+    "react-hot-loader": "^4.6.3",
+    "rocketact-scripts": "^1.0.0",
+    "tslint": "^5.12.0",
+    "typescript": "^3.2.2",
+    "tslint-config-prettier": "^1.17.0"
+  },
+  "dependencies": {
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  }
+}
